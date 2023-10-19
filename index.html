@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visibility , overflow,elipsis</title>
+
+    <style>
+
+        .box-1{
+
+            width:500px;
+            height: 150px;
+            background-color: black;
+            color: darkmagenta;
+            /* overflow: hidden; */
+            /* overflow: visible; */
+            /* overflow-y: scroll; */
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+
+        .box-3 {
+
+            width: 200px;
+            white-space: nowrap;
+            border: 2px solid lightcoral;
+            
+        }
+
+        .box-3 p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-1">
+        <h1>first box</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit facilis obcaecati unde? Facilis voluptatum beatae, ullam distinctio aperiam atque velit harum expedita accusamus ut quo delectus dolor. Id veritatis debitis fugit voluptates illo, quidem, laboriosam dolorem eligendi sit perspiciatis eum fugiat similique dolorum! Ratione incidunt, provident dolorem eligendi repudiandae mollitia inventore quidem. Libero rerum dolores cum a minus omnis pariatur! Ullam voluptates molestiae autem, fugiat vero perspiciatis mollitia? Modi obcaecati, error dicta atque impedit nulla quod autem voluptates tempore nihil unde ab quis ipsum? Natus tenetur omnis minus facere rerum veniam magni eligendi quas repellendus rem, exercitationem vero non vel?</p>
+
+    </div>
+    <div class="box-2">
+        <h1>first box</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit facilis obcaecati unde? Facilis voluptatum beatae, ullam distinctio aperiam atque velit harum expedita accusamus ut quo delectus dolor. Id veritatis debitis fugit voluptates illo, quidem, laboriosam dolorem eligendi sit perspiciatis eum fugiat similique dolorum! Ratione incidunt, provident dolorem eligendi repudiandae mollitia inventore quidem. Libero rerum dolores cum a minus omnis pariatur! Ullam voluptates molestiae autem, fugiat vero perspiciatis mollitia? Modi obcaecati, error dicta atque impedit nulla quod autem voluptates tempore nihil unde ab quis ipsum? Natus tenetur omnis minus facere rerum veniam magni eligendi quas repellendus rem, exercitationem vero non vel?</p>
+
+    </div>
+    <div class="box-3">
+        
+        <p title="Lorem ipsum dolor sit amet consectetur adipisicing elit.">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
+    </div>
+</body>
+</html>
